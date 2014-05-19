@@ -6,6 +6,7 @@ body {
 	background: url('../img/bg2.jpg') #000 top center fixed no-repeat;
 	background-size:150%;
 	font-family:'Open Sans',sans-serif;
+	padding-top: 80px;
 }
 
 a, a:visited{color:#d54872;
@@ -57,13 +58,20 @@ h1 {
 /* Section Styles  */
 
 #intro {
-	margin-top:100px;
+	/*margin-top:20px;*/
 	text-align:center;
 	min-height:400px;
 	padding:0 0 50px;
+	padding-top:80px;
+    margin-top:-80px;
+    margin-bottom: 10px;
 }
 
 #intro h1 {
+	color:#fff;
+}
+
+#intro h3 {
 	color:#fff;
 }
 
@@ -72,13 +80,22 @@ h1 {
 	color:#fff;
 }
 
+#premium {
+	padding-top:80px;
+    margin-top:-80px;
+}
+
 #about {
 	background:#fff;
 }
 
 #team {
-	background:#000;
-	background:rgba(0,0,0,0.8);
+	background:#fff;
+	/*background:rgba(0,0,0,0.8);*/
+}
+
+#team * {
+	color:#000;
 }
 #contact {
 	background:#202020;

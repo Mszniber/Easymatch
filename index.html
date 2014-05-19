@@ -9,10 +9,11 @@
   	<script>window.jQuery || document.write('<script src="assets/js/jquery-1.7.2.min.js"><\/script>')</script>
     <script src="Front%20Row%20-%20One%20Page%20Theme%20-%20Live%20Preview%20-%20WrapBootstrap_files/jquery-ui-1.js"></script>
     <script src="Front%20Row%20-%20One%20Page%20Theme%20-%20Live%20Preview%20-%20WrapBootstrap_files/jquery.js"></script>
-    <script src="Front%20Row%20-%20One%20Page%20Theme%20-%20Live%20Preview%20-%20WrapBootstrap_files/modernizr-2.js"></script>
+    <link rel="shortcut icon" href="easymatch.ico"/>
     <link href="css.css" rel="stylesheet" type="text/css">
     <link href="css_002.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="bootstrap.js"></script> 
+	<script type="text/javascript" src="bootstrap.js"></script>
+  <script type="text/javascript" src="script.js"></script> 
     <link href="bootstrap.css" rel="stylesheet">
     <link href="bootstrap-responsive.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">    
@@ -32,7 +33,7 @@
             <a class="brand scroller" href="#">Easy Match</a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><a href="#about" class="scroller">Fonctionnement</a></li>
+                    <li><a href="#intro" class="scroller">Fonctionnement</a></li>
                     <li><a href="#premium" class="scroller">Premium</a></li>
                     <li><a href="#team" class="scroller">L'equipe</a></li>
                     <li><a href="#contact" class="scroller">Nous contacter</a></li>
@@ -43,32 +44,36 @@
     </div>
 
         <div class="main-container">
-        <div class="container-fluid" id="intro">    
+        <div class="container-fluid" id="about">    
         <div class="container"> 
         <div class="row">
             <div class="span6">
                 <h1>EasyMatch</h1>
-                <p>Vous voulez faire un foot mais vous n'arrivez pas à trouver des personnes motivees autour de vous ? Vous voulez faire un match serieux ou decontracte ? Organisez ou rejoignez simplement LE match qui correspond à vos attentes en téléchargeant l’application EasyFoot disponible gratuitement sur l’AppStore et GooglePlay ! N’attendez plus qu’on vous appelle pour aller jouer !
-    </p>
+                <p>Vous êtes tennisman, footballeur, basketteur, ou juste sportif amateur ? Vous aimez jouer en équipe sur le terrain à côté de chez vous, mais organiser un match est trop long ? Courir seul est un obstacle à la pratique du sport ? Organiser un tournoi est très compliqué ? <br>
+ EasyMatch est l’application faite pour vous ! <br>
+Notre application, GRATUITE, vous permet d’organisez ou de rejoindre un évènement en quelques clics seulement, grâce à notre système de géolocalisation et de notification avancé ! Ne téléphonez plus à vos amis, invitez-les sur l’application ! Jouez, communiquez et notez les adversaires en fonction de vos critères ! <br>
+Téléchargez notre application disponible gratuitement sur GooglePlay et l’AppStore ! 
+</p>
                 <a href="#"><img src="app-goo.png"/></a>
             </div>  
             <div class="span6">
+              <div class="block2RightBlock">
                 <div class="screenContainer">
       <img class="screen" src="https://dtjjuwykwvui9.cloudfront.net/assets/emptyScreen-5ee2da839252bf5cf31306d4a044734d.png"/>
       <div class="screenContentContainer">
         <div class="videoContainer">
-         
+         <!-- <iframe width="560" height="315" src="//www.youtube.com/embed/d3cWjT9lpZc" frameborder="0" allowfullscreen></iframe> -->
         </div>
       </div>
     </div>
-                
+               </div> 
             </div>  
         </div>
         </div>
         </div>
     </div>
 
-    <div class="container-fluid" id="about">
+    <div class="container-fluid" id="intro">
 
    
 
@@ -76,27 +81,29 @@
             <h1>Fonctionnement</h1>
 
              <ul class="thumbnails">
-          <li class="span4">
-            <div class="thumbnail">
-              <img alt="" src="icon1.png">
-              <h3>Faites des rencontres</h3>
-              <p>Autour d'une même passion.</p>
-            </div>
-          </li>
-        
-          <li class="span4">
-            <div class="thumbnail">
-              <img alt="" src="icon2.png">
-              <h3>Une application User-friendly (test)</h3>
-              <p></p>
-            </div>
-          </li>
+            
           
           <li class="span4">
             <div class="thumbnail">
                <img alt="" src="icon3.png">
               <h3>Totalement gratuit</h3>
               <p>L'application est en telechargement gratuit sur iOS et Android.</p>
+            </div>
+          </li>
+
+          <li class="span4">
+            <div class="thumbnail">
+              <img alt="" src="icon2.png">
+              <h3>Simplicité et efficacité</h3>
+              <p>Organisez ou rejoignez une partie ou un match en moins d'une minute</p>
+            </div>
+          </li>
+
+          <li class="span4">
+            <div class="thumbnail">
+              <img alt="" src="icon1.png">
+              <h3>Faites des rencontres</h3>
+              <p>Pour chaque évènement, un chat est disponible pour que les joueurs s’organisent plus facilement.</p>
             </div>
           </li>
         </ul>
@@ -107,14 +114,16 @@
                     <h1>PHOTO</h1>
                 </div>
                 <div class="span6">
-                    <h1>TEXTE</h1>
+                    <h3>Création d'un évènement</h3>
+                    <p>Sport individuel ou sport en équipe, c’est à vous de décider ! Choisissez le sport, le lieu, la date, le nombre de personnes, les accessoires à apporter (ballon de foot par exemple) en quelques clics sur notre interface ergonomique ! </p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="span1"></div>
                 <div class="span6">
-                    <h1>TEXTE</h1>
+                    <h3>Géolocalisation et Notification</h3>
+                    <p>En fonction de vos préférences, une liste des évènements disponibles autour de votre position s’affiche à l’écran. Ainsi, vous serez informé dès qu’un évènement est créé, grâce aux notifications ! Rejoindre une partie ou un évènement n’aura jamais été aussi simple !</p>
                 </div>
                 <div class="span4">
                     <h1>PHOTO</h1>
@@ -127,7 +136,8 @@
                     <h1>PHOTO</h1>
                 </div>
                 <div class="span6">
-                    <h1>TEXTE</h1>
+                    <h3>Notez vos adversaires</h3>
+                    <p>Après un match, attribuez une note à vos adversaires ou partenaires (fiabilité, niveau, fair-play, …). Vous choisirez avec quel type de personne vous voulez jouer !</p>
                 </div>
             </div>
         
@@ -142,14 +152,16 @@
                     <h1>PHOTO</h1>
                 </div>
                 <div class="span6">
-                    <h1>TEXTE</h1>
+                    <h3>Créer un évènement payant </h3>
+                    <p>Vous souhaitez organiser un marathon ou un tournoi de foot payant ? Devenez PREMIUM ! D’une part, vous pourrez créer un évènement payant, d’autre part, cet évènement sera en tête de liste en fonction de l’offre que vous avez choisie.</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="span1"></div>
                 <div class="span6">
-                    <h1>TEXTE</h1>
+                    <h3>Promouvoir votre association</h3>
+                    <p>Notre application augmente considérablement votre visibilité auprès de vos cibles (Jeunes, Joueur de foot, …). En fonction de vos critères et des préférences des utilisateurs, nous ciblons votre publicité directement auprès des utilisateurs qui vous intéressent. </p>
                 </div>
                 <div class="span4">
                     <h1>PHOTO</h1>
@@ -162,7 +174,8 @@
                     <h1>PHOTO</h1>
                 </div>
                 <div class="span6">
-                    <h1>TEXTE</h1>
+                    <h3>Suivez vos performances </h3>
+                    <p>Quoi de mieux pour se motiver qu’un suivi de ses performances ! Analyse des résultats ergonomiques, conseils et challenges à accomplir pour progresser en s’amusant. Partagez vos statistiques auprès de vos amis et devenez le sportif N°1 sur EasyMatch !</p>
                 </div>
             </div>
         
