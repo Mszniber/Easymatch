@@ -64,7 +64,6 @@ h1 {
 	padding:0 0 50px;
 	padding-top:80px;
     margin-top:-80px;
-    margin-bottom: 10px;
     background:#202020;
 }
 
@@ -84,6 +83,14 @@ h1 {
 #premium {
 	padding-top:80px;
     margin-top:-80px;
+}
+
+#prem {
+	background: #303030;
+}
+
+#prem * {
+	color: white;
 }
 
 #about {
