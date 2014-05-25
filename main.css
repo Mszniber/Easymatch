@@ -1,25 +1,13 @@
 
 /* Setup Styles  */
 
+@charset "UTF-8";
+
 body {
 	/* Change the background image here  */
-	background: url('../img/bg2.jpg') #000 top center fixed no-repeat;
 	background-size:150%;
 	font-family:'Open Sans',sans-serif;
 	padding-top: 80px;
-}
-
-a, a:visited{color:#d54872;
-	
-	-webkit-transition:all .1s linear;
-	-moz-transition:all .1s linear;
-	-ms-transition:all .1s linear;
-	-o-transition:all .1s linear;
-	transition:all .1s linear;
-	
-}
-a:hover,a:active{color:#a43053;
-	text-decoration: none;
 }
 
 
@@ -113,7 +101,7 @@ h1 {
 
 
 #about h3 {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	color: black;
 	text-align: center;
@@ -126,6 +114,9 @@ h1 {
 
 #team {
 	background:#fff;
+
+	padding-top:80px;
+    margin-top:-80px;
 	/*background:rgba(0,0,0,0.8);*/
 }
 
