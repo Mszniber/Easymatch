@@ -94,7 +94,34 @@ h1 {
 }
 
 #about {
-	background:#fff;
+
+    background-image:url(pelouse.jpg);
+}
+
+#about .opt {
+	font-size: 20px;
+	color: black;
+	font-family: arial;
+	opacity: 1;
+	text-align: center;
+}
+
+#options{
+	background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+#about h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+#about .pres {
+	font-size: 15px;
+	color: black;
 }
 
 #team {
