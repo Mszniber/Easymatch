@@ -55,6 +55,10 @@ h1 {
     background:#202020;
 }
 
+.screen{
+	align: center;
+}
+
 #intro h1 {
 	color:#fff;
 }
